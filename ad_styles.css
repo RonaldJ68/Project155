@@ -1,41 +1,23 @@
-html>
-body>
- {
-    background-color: lightblue;
-  }
-  
-  h1 {
-    color: white;
-    text-align: center;
-  }
-  
-  p {
-    font-family: verdana;
-    font-size: 20px;
-  }
-    
-    @font-face {
-    font-family: Champagne;
-    src: url(cac_champagne.woff) format('woff'),
-    url(cac_champagne.ttf) format('ttf');
-   }
-    
-   @font-face {
-    font-family: Grunge;
-    src: url(1942.woff) format('woff'),
-    url(1942.ttf) format('ttf');
-   }
-    
-   @font-face {
-    font-family: Dobkin;
-    src: url(DobkinPlain.woff) format('woff'),
-    url(DobkinPlain.ttf) format('ttf');
-   }
+@charset "utf-8";
 
-
-
-
-
+@font-face {
+font-family: Champagne;
+src: url(cac_champagne.woff) format('woff'),
+url(cac_champagne.ttf) format('ttf');
+}
+ 
+@font-face {
+font-family: Grunge;
+src: url(1942.woff) format('woff'),
+url(1942.ttf) format('ttf');
+}
+ 
+@font-face {
+font-family: Dobkin;
+src: url(DobkinPlain.woff) format('woff'),
+url(DobkinPlain.ttf) format('ttf');
+}
+ 
 /*   New Perspectives on HTML5 and CSS3, 7th Edition
    Tutorial 2
    Review Assignment
@@ -51,18 +33,22 @@ body>
 
 /* Main Structural Styles */
 html{
-    background-color: hsl(91, 8%, 56%);
-   }
-    
-   body{
-    background-color: hsl(58, 31%, 84%);
-    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif; 
-   }
-    
-   header{
-    background-color: black;
-   }
-
+ background-color: hsl(91,8%,56%);
+}
+   
+body{
+ background-color: hsl(58,31%,84%);
+ font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+ }
+   
+header{
+ background-color: black;
+}
+   
+p{
+  margin:0px;
+  padding: 5px 25px 25px 25px;
+}
 
 
 /* Heading Styles */
@@ -75,12 +61,22 @@ html{
 
 
 /* Navigation Styles */	
+p{
+    margin:0px;
+    padding: 5px 25px 25px 25px;
+  }
 
+  body> p{
+    text-align: center;
+    font-size: 1.1em;
+  }
 
-
-
-/* Paragraph Styles */
-
+/* Section Styles */
+html{background-color: hsl(91, 8%, 56%);}
+nav a{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 
 
 /* List Styles */
