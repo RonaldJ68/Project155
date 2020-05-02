@@ -1,19 +1,51 @@
-/*
-   New Perspectives on HTML5 and CSS3, 7th Edition
+@font-face {
+    font-family: Champagne;
+    src: url(cac_champagne.woff) format('woff'),
+    url(cac_champagne.ttf) format('ttf');
+   }
+    
+   @font-face {
+    font-family: Grunge;
+    src: url(1942.woff) format('woff'),
+    url(1942.ttf) format('ttf');
+   }
+    
+   @font-face {
+    font-family: Dobkin;
+    src: url(DobkinPlain.woff) format('woff'),
+    url(DobkinPlain.ttf) format('ttf');
+   }
+
+
+
+
+
+/*   New Perspectives on HTML5 and CSS3, 7th Edition
    Tutorial 2
    Review Assignment
    
    TSS Typographic Style Sheet
-   Author: 
-   Date:   
+   Author: Ronald Pitts
+   Date: 05/02/2020  
    
-   Filename: coach_styles.css
+   Filename: ad_styles.css
 
 */
 
 
 /* Main Structural Styles */
-
+html{
+    background-color: hsl(91, 8%, 56%);
+   }
+    
+   body{
+    background-color: hsl(58, 31%, 84%);
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif; 
+   }
+    
+   header{
+    background-color: black;
+   }
 
 
 
