@@ -37,14 +37,14 @@ url(DobkinPlain.ttf) format('ttf');
 html{
  background-color:black;
 }
-   
+
 body{
- background-color: hsl(58,31%,84%);
+ background-color: blue;
  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
  }
    
 header{
- background-color: black;
+ background-color: green;
 }
    
 p{
