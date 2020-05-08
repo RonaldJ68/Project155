@@ -44,17 +44,17 @@ body{
  }
    
 header{
- background-color: green;
+ background-color:black;
 }
    
 p{
   margin:20px;
-  padding: 10px 30px 30px 30px;
+  padding: 5px 25px 25px 25px;
 }
 
 
 /* Heading Styles */
-h1{color: blue; font-size:14px;}
+h1{color: red; font-size:14px;}
 
 
 /* Blockquote Styles */
