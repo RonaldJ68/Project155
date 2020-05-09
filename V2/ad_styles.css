@@ -51,11 +51,11 @@ html{
   }
    
 html{
- background-color:black;
+ background-color:blue;
 }
 
 body{
- background-color: blue;
+ background-color: black;
  font-family: 'Palatino Linotype', Palatino, serif;
  }
    
@@ -70,7 +70,7 @@ p{
 
 
 /* Heading Styles */
-h1{color: red; font-size:14px;}
+h1{color: red; font-size:16px;}
 
 
 /* Blockquote Styles */
