@@ -89,6 +89,15 @@ p{
     font-size: 1.1em;
   }
 
+ /* Horizontal Navigation List Styles */
+ 
+nav.horizontal li {
+  display: block;
+  float: left;
+  width: 12.5%;
+} 
+
+
 /* Section Styles */
 html
 {background-color: blue);
