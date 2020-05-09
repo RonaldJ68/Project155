@@ -52,7 +52,7 @@ html{
    
 html{
  background-color:blue;
-}
+ }
 
 body{
  background-color: black;
@@ -61,12 +61,12 @@ body{
    
 header{
  background-color:black;
-}
+ }
    
 p{
   margin:20px;
   padding: 10px 30px 30px 30px;
-}
+ }
 
 
 /* Heading Styles */
@@ -84,13 +84,13 @@ p{
     padding: 10px 30px 30px 30px;
   }
 
-  body p{
+  body {
     text-align: center;
     font-size: 1.1em;
   }
 
  /* Horizontal Navigation List Styles */
- 
+
 nav.horizontal li {
   display: block;
   float: left;
