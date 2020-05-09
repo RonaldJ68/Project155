@@ -15,6 +15,25 @@
         <title>About</title>
         <link rel="ad_Styles.css" href="stylesheet" />
         <style>
+            
+            * {
+            box-sizing: border-box;
+            }
+
+            .column {
+            float: left;
+            width: 33.33%;
+            padding: 5px;
+            }
+
+        /* Clearfix (clear floats) */
+            .row::after {
+            content: "";
+            clear: both;
+            display: table;
+            }
+
+                    
 
             .footer {
             position: fixed;
@@ -24,7 +43,7 @@
             background-color:black;
             color: red;
             text-align: center;
-}
+            }
 
             img {
               display: block;
@@ -57,6 +76,22 @@
         </style>
     </head>
     <body>
+
+        <div class="row">
+            <div class="column">
+              <img src="windows_logo.jpeg" alt="Snow" style="width:100%">
+            </div>
+            <div class="column">
+              <img src="Linux.jpeg" alt="Forest" style="width:100%">
+            </div>
+            <div class="column">
+              <img src="Security.jpeg" alt="Mountains" style="width:100%">
+              <div class="column">
+                <img src="Forensics2.jpeg" alt="Mountains" style="width:100%">                
+              </div>
+            </div>
+          </div>
+
         <header>
 
         <h1 id="top" >CREATED BY: Ronald J Pitts</h1>
@@ -67,7 +102,7 @@
         <img src="ad_Logo.jpeg" alt="Project: Admin_Tools" style="width:1500px;height:250px;"/>
 
           
-            <nav>
+            <nav class="auto"
                 <ul>
                     <li><a href="ad_index.html">home</a></li>
                     <li><a href="ad_Windows.html">Windows</a></li>
