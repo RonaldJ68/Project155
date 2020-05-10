@@ -20,6 +20,23 @@
         <meta name="bg" content="width=device-width, initial-scale=1">
         <style>
 
+* {
+            box-sizing: border-box;
+            }
+
+            .column {
+            float: left;
+            width: 20%;
+            padding: 40px;
+            }
+
+        /* Clearfix (clear floats) */
+            .row::after {
+            content: "";
+            clear: both;
+            display: table;
+            }
+
         body, html {
           height: 100%;
           margin: 0;
@@ -28,6 +45,7 @@
         .bg {
         /* The image used */
             background-image: url("bg.jpeg");
+
         /* Full height */
             height: 75%; 
 
@@ -63,6 +81,35 @@
     </head>
         <body>
             <div class="bg"></div>
+
+            <section>
+
+                <div class="row">
+    
+                <div class="column">
+                    <img src="windows_logo.jpeg" alt="Windows" style="width:20%">
+                </div>
+    
+                <div class="column">
+                    <img src="Linux.jpeg" alt="Linux" style="width:20%">
+                </div>
+    
+                <div class="column">
+                    <img src="Security.jpeg" alt="Security" style="width:20%">
+                </div>
+    
+                <div class="column">
+                    <img src="Forensics2.jpeg" alt="Forensics" style="width:20%">
+                </div>
+    
+                <div class="column">
+                    <img src="networking.jpeg" alt="Networking" style="width:20%">
+                </div>
+    
+                </div>
+    
+    
+            </section>
     <header>
         <h1 id="top" >CREATED BY: Ronald J Pitts - WebDev 1 - Spring 2020</h1>
 </header> 
