@@ -30,8 +30,44 @@ url(DobkinPlain.ttf) format('ttf');
    
    Filename: ad_styles.css
 
-*/
+*
+        
+        body, html {
+        height: 100%;
+        margin: 0;
+        }
 
+        .bg {
+         /* The image used */
+        background-image: url("img_girl.jpg");
+
+        /* Full height */
+        height: 100%; 
+
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        }
+
+        
+
+        body, html {
+        height: 100%;
+        }
+
+        .bg {
+         /* The image used */
+         background-image: url("bg.jpeg ");
+
+        /* Full height */
+        height: 100%;
+
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        }
 
 /* Main Structural Styles */
 html{
