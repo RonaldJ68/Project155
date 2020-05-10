@@ -96,7 +96,17 @@ font: size 2em;
 
 /* Section Styles */
 html
-{background-color: blue);
+{background-color: blue;
+}
+
+nav > ol > li{
+
+  font-size: 1.3rem;
+
+  font-weight: bold;
+
+  font-family: impact;
+
 }
 nav a{
   padding-top: 20px;
