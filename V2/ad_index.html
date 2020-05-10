@@ -12,15 +12,31 @@
             File Name: ad_Index.html
         -->
         <meta charset="UTF-8"/>
-        <meta name="Keywords" content="Windows, Linux, Security, Forensics" />
-        <meta name="bg" content="width=device-width, initial-scale=1">
+        <meta name="Keywords" content="Windows, Linux, Security, Forensics" />        
         <title>Project: Admin_Tools</title>
         <!--M1LO8 Demonstrate the use of external style sheets (HTML, note the external style sheet must exist and contain CSS)-->
         <!--Identifies the use of a stylesheet-->
         <link rel="ad_styles.css" href="stylesheet" />
-        
+        <meta name="bg" content="width=device-width, initial-scale=1">
         <style>
 
+        body, html {
+          height: 100%;
+          margin: 0;
+        }
+
+        .bg {
+        /* The image used */
+            background-image: url("img_girl.jpg");
+
+        /* Full height */
+            height: 100%; 
+
+        /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+}
         .footer {
             position: fixed;
             left: 0;
@@ -38,7 +54,7 @@
         }
             
         html {
-            background-color:white;
+            background-color:black;
         }
 
         h1 {color: red; font-size:26px;}
