@@ -30,7 +30,7 @@ url(DobkinPlain.ttf) format('ttf');
    
    Filename: ad_styles.css
 
-*
+*/
         
         body, html {
         height: 100%;
@@ -39,7 +39,7 @@ url(DobkinPlain.ttf) format('ttf');
 
         .bg {
          /* The image used */
-        background-image: url("img_girl.jpg");
+        background-image:url("img_girl.jpg");
 
         /* Full height */
         height: 100%; 
