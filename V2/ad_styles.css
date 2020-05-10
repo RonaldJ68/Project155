@@ -64,7 +64,7 @@ header{
  }
    
 p{
-  margin:20px;
+  margin: 20px;
   padding: 10px 30px 30px 30px;
  }
 
@@ -80,7 +80,7 @@ h1{color: red; font-size:16px;}
 
 /* Navigation Styles */	
 p{
-margin:0px;
+margin: 10px;
 padding: 10px 30px 30px 30px;
 }
 
