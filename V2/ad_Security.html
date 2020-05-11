@@ -14,6 +14,40 @@
         <link rel="ad_styles.css" href="stylesheet" />
         <style>
 
+            * {
+            box-sizing: border-box;
+            }
+
+            .column {
+            float: left;
+            width: 20%;
+            padding: 50px;
+            }
+
+        /* Clearfix (clear floats) */
+            .row::after {
+            content: "";
+            clear: both;
+            display: table;
+            }
+
+        body, html {
+          height: 100%;
+          margin: 0;
+        }
+        /* The image used */
+        .bg {
+           background-image: url("bg_security.jpeg");
+
+        /* Full height */
+            height: 75%; 
+
+        /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
             h1 {
             border: 5px solid yellow;
             } 
@@ -41,7 +75,7 @@
                 display: block;
              }  
         </style>
-        </style>
+        
     </head>
     <body>
         
