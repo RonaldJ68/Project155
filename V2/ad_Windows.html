@@ -11,10 +11,49 @@
         <meta charset="UTF-8">
         <!--Introduction of Keywords-->
         <meta name="keywords" content="Windows, Linux, Security, Forensics" />
+        <meta name="bg" content="width=device-width, initial-scale=1">
         <link rel="ad_styles.css" href="stylesheet" />
         <title>Home</title>
 
            <style>
+
+h1 {
+            border: 5px solid blue;
+            }
+
+            * {
+            box-sizing: border-box;
+            }
+
+            .column {
+            float: left;
+            width: 20%;
+            padding: 50px;
+            }
+
+        /* Clearfix (clear floats) */
+            .row::after {
+            content: "";
+            clear: both;
+            display: table;
+            }
+
+        body, html {
+          height: 100%;
+          margin: 0;
+        }
+        /* The image used */
+        .bg {
+           background-image: url("bg.jpeg");
+
+        /* Full height */
+            height: 75%; 
+
+        /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
 
             h1 {
             border: 5px solid blue;
