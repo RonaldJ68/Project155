@@ -15,32 +15,65 @@
         <style>
 
             h1 {
-            border: 5px solid red;
-            }   
-
-            
-
-            img {
-              display: block;
-              margin-left: auto;
-              margin-right: auto;
-            }
-            
-            html{
-            background-color:orange;
+            border: 5px solid blue;
             }
 
-            h1{color: brown; font-size:32px;}
-            h1 {text-align: center;}
+            * {
+            box-sizing: border-box;
+            }
+
+            .column {
+            float: left;
+            width: 20%;
+            padding: 50px;
+            }
+
+        /* Clearfix (clear floats) */
+            .row::after {
+            content: "";
+            clear: both;
+            display: table;
+            }
+
+        body, html {
+          height: 100%;
+          margin: 0;
+        }
+        /* The image used */
+        .bg {
+           background-image: url("bg_linux.jpeg");
+
+        /* Full height */
+            height: 75%; 
+
+        /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+            
+        html {
+            background-color:orangered;
+        }
+
+        h1 {color:brown; font-size:32px;}
+        h1 {text-align: center;}
             
 
-            p{
-                color: brown; font-size:30px;
-                font-family: courier;
-                font-size: 150%;
-                text-align: center;
-                display: block;
-             }  
+        p {
+          color: brown;
+          font-family: courier;
+          font-size: 150%;
+          text-align: center;
+          display: block;
+        }
+
         </style>
     </head>
 
