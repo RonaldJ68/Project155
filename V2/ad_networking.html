@@ -21,31 +21,70 @@
         <style>
 
             h1 {
-            border: 5px solid green;
-            } 
-            img {
-              display: block;
-              margin-left: auto;
-              margin-right: auto;
-            }
+                        border: 5px solid blue;
+                        }
             
-            html{
-            background-color:yellowgreen ;            }
-
-            h1{color: blueviolet; font-size: 32px;}
-            h1 {text-align: center;}
+                        * {
+                        box-sizing: border-box;
+                        }
             
-
-            p{
-                color: blueviolet;
-                font-family: courier;
-                font-size: 150%;
-                text-align: center;
-                display: block;
-             }  
-        </style>
+                        .column {
+                        float: left;
+                        width: 20%;
+                        padding: 50px;
+                        }
+            
+                    /* Clearfix (clear floats) */
+                        .row::after {
+                        content: "";
+                        clear: both;
+                        display: table;
+                        }
+            
+                    body, html {
+                      height: 100%;
+                      margin: 0;
+                    }
+                    /* The image used */
+                    .bg {
+                       background-image: url("bg_networking.jpeg");
+            
+                    /* Full height */
+                        height: 75%; 
+            
+                    /* Center and scale the image nicely */
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                    }
+                    
+                    img {
+                        display: block;
+                        margin-left: auto;
+                        margin-right: auto;
+                    }
+                        
+                    html {
+                        background-color:purple;
+                    }
+            
+                    h1 {color: blue; font-size:32px;}
+                    h1 {text-align: center;}
+                        
+            
+                    p {
+                      color: red;
+                      font-family: courier;
+                      font-size: 150%;
+                      text-align: center;
+                      display: block;
+                    }
+                </style>
     </head>
     <body>
+
+        <div class="bg"></div>
+
         <header>
     
             <h1>Admin_Tools: Networking Page</h1>
