@@ -13,6 +13,7 @@
         -->
         <meta charset="UTF-8"/>
         <meta name="Keywords" content="Windows, Linux, Security, Forensics" />
+        <meta name="bg" content="width=device-width, initial-scale=1">
         <title>Project: Admin_Tools</title>
         <!--M1LO8 Demonstrate the use of external style sheets (HTML, note the external style sheet must exist and contain CSS)-->
         <!--Identifies the use of a stylesheet-->
@@ -21,31 +22,65 @@
         <style>
 
             h1 {
-            border: 5px solid greenyellow;
-            }             
-
-
-            img {
-              display: block;
-              margin-left: auto;
-              margin-right: auto;
-            }
-            
-            html{
-            background-color:grey;
+            border: 5px solid yellow;
             }
 
-            h1{color: yellow; font-size:32px;}
-            h1 {text-align: center;}
+            * {
+            box-sizing: border-box;
+            }
+
+            .column {
+            float: left;
+            width: 20%;
+            padding: 50px;
+            }
+
+        /* Clearfix (clear floats) */
+            .row::after {
+            content: "";
+            clear: both;
+            display: table;
+            }
+
+        body, html {
+          height: 100%;
+          margin: 0;
+        }
+        /* The image used */
+        .bg {
+           background-image: url("bg_forensics.jpeg");
+
+        /* Full height */
+            height: 75%; 
+
+        /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+            
+        html {
+            background-color:gray;
+        }
+
+        h1 {color:yellowgreen; font-size:32px;}
+        h1 {text-align: center;}
             
 
-            p{
-                color: yellow; font-size:30px;
-                font-family: courier;
-                font-size: 150%;
-                text-align: center;
-                display: block;
-             }  
+        p {
+          color: yellow;
+          font-family: courier;
+          font-size: 150%;
+          text-align: center;
+          display: block;
+        }
+
         </style>
     </head>
     <body>
