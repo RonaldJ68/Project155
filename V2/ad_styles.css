@@ -33,7 +33,7 @@ url(DobkinPlain.ttf) format('ttf');
 */
 
 h1 {
-  border: 5px double blue;
+  border: 5px double 
   }
 
 body, html {
