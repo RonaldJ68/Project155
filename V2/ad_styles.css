@@ -31,6 +31,31 @@ url(DobkinPlain.ttf) format('ttf');
    Filename: ad_styles.css
 
 */
+
+* {
+  box-sizing: border-box;
+  }
+
+  .column {
+  float: left;
+  width: 20%;
+  padding: 50px;
+  }
+
+/* Clearfix (clear floats) */
+  .row::after {
+  content: "";
+  clear: both;
+  display: table;
+  }
+
+  
+
+  img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
 body, html {
   height: 100%;
   margin: 0;
