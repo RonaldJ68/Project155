@@ -32,7 +32,9 @@ url(DobkinPlain.ttf) format('ttf');
 
 */
 
-
+h1 {
+  border: 5px double blue;
+  }
 
 body, html {
   height: 100%;
