@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+       <!--
+        M1LO6 Demonstrate the use of basic HTML tags to create a simple Web page (HTML, this item should be specified once, describing how the file it is in meets this outcome).-->
+        <!--Identifies the opening Tag, it is so the broswer knows what type of Doc it is.-->
+<html>
+    <head>
+        <!--
+            CIS Web Dev 1 - Quarter Project - V1
+            Author: Ronald Pitts
+            Date: 05/01/2020
+
+            File Name: ad_Index.html
+        -->
+        <meta charset="UTF-8"/>
+        <meta name="Keywords" content="Windows, Linux, Security, Forensics" />
+        <meta name="bg" content="width=device-width, initial-scale=1">
+        <title>Project: Admin_Tools</title>
+        <!--M1LO8 Demonstrate the use of external style sheets (HTML, note the external style sheet must exist and contain CSS)-->
+        <!--Identifies the use of a stylesheet-->
+        <link rel="ad_styles.css" href="stylesheet" />
+
+        <style>
+
+            h1 {
+            border: 5px double grey;
+            }
+
+            * {
+            box-sizing: border-box;
+            }
+
+            .column {
+            float: left;
+            width: 20%;
+            padding: 50px;
+            }
+
+        /* Clearfix (clear floats) */
+            .row::after {
+            content: "";
+            clear: both;
+            display: table;
+            }
+
+        body, html {
+          height: 100%;
+          margin: 0;
+        }
+        /* The image used */
+        .bg {
+           background-image: url("bg_forensics.jpeg");
+
+        /* Full height */
+            height: 75%; 
+
+        /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+            
+        html {
+            background-color:black;
+        }
+
+        h1 {color:yellowgreen; font-size:32px;}
+        h1 {text-align: center;}
+            
+
+        p {
+          color: rebeccapurple;
+          font-family: courier;
+          font-size: 150%;
+          text-align: center;
+          display: block;
+        }
+
+        </style>
+    </head>
+    <body>
+
+        <div class="bg"></div>
+
+        <h1><a id="top" >Admin_Tools: Forensics Page</a></h1>
+
+        <img src="Forensics.jpeg" alt="Project: Admin_Tools" style="width:500px;height:250px;"/>
+        
+       <header>
+        <!--M1LO7 Demonstrate the use of ordered lists (HTML)-->   
+            <nav>
+                <ol>
+                    <li><a href="ad_index.html">home</a></li>
+                    <li><a href="ad_Windows.html">Windows</a></li>
+                    <li><a href="ad_Linux.html">Linux</a></li>
+                    <li><a href="ad_Security.html">Security</a></li>
+                    <li><a href="ad_forensics.html">Forensics</a></li>
+                    <li><a href="ad_networking.html">Networking</a></li>
+                    <li><a href="ad_about.html">About</a></li>
+                </ol>
+            </nav>
+        </header>
+
+        <article>
+
+        <section>
+
+        <h1>Welcome to the Forensics Section of Admin_Tools</h1>
+
+        <img src="Forensics2.jpeg" alt="Forensics" style="width:300px;height:250px;"/>
+
+        </section>
+
+        <section>
+
+        <h1>FORENSICS</h1>
+
+        <p><strong> Forensics Tools</strong> can help you with everyday tasks, you will find that not all the tools are the same. Yes, the 
+        look a lot alike but not every tool works the same either. As an Administrator or, Technician you will try many 
+        tools that either will work for you and alot that won't. I have put together links that that may or may not help 
+        you along you IT path</p>
+        
+        </section>
+
+        <section>
+
+        <h1>HYPERLINKS</h1>
+
+        <ul>
+            <li><a href="https://www.autopsy.com/">Visit Autopsy</a></li>
+            <li><a href="https://www.magnetforensics.com/">Visit Magnet</a></li>
+            <li><a href="https://accessdata.com/">Visit AccessData</a></li>
+            <li><a href="https://www.osforensics.com/">Visit PassMark Software</a></li>
+            <li><a href="http://www.winhex.com/">Visit Winhex</a></li>
+        </ul>
+
+        </section>
+
+        <section>
+
+        <h1>DOCUMENTS, TUTORIALS, and WHITE PAGES</h1>
+        
+        <ul>
+
+            <li><a href="https://www.autopsy.com/">Visit Autopsy</a></li>
+            <li><a href="https://www.magnetforensics.com/">Visit Magnet</a></li>
+            <li><a href="https://accessdata.com/">Visit AccessData</a></li>
+            <li><a href="https://www.osforensics.com/">Visit PassMark Software</a></li>
+            <li><a href="http://www.winhex.com/">Visit Winhex</a></li>
+
+        </ul>
+
+        </Section>
+
+        <section>
+
+            <h1>My Google Drive: Windows</h1>
+
+            <p>The following link will take you to the google drive folder that I have setup for this site</p>
+
+            <p><a href="https://drive.google.com/drive/u/1/folders/1paA9mh8rVtTDwrysOG1STjCHrdm_xeJX">Forensics Folder Downloads </a></p>
+
+        </section>
+
+        <section>
+            <h1><strong>Disclaimer</strong></h1>
+        
+            <p>The links on the following pages will take you to <strong>Software</strong> that is either <strong>Free</strong> of charge or has a <strong>Trial</strong> period.</p>
+
+        </section>
+
+    </article>
+
+        <section>
+
+        <a href="#top">Go to top</a>
+
+        <div class="footer">
+            <p>Ronald J Pitts - Web Dev1 - Sean Pettersen</p>
+        </div>
+
+        </section>
+
+    </body>
+</html>

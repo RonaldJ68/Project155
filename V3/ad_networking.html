@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+        <!--
+        M1LO6 Demonstrate the use of basic HTML tags to create a simple Web page (HTML, this item should be specified once, describing how the file it is in meets this outcome).-->
+        <!--Identifies the opening Tag, it is so the broswer knows what type of Doc it is.-->
+<html>
+    <head>
+        <!--
+            CIS Web Dev 1 - Quarter Project - V1
+            Author: Ronald Pitts
+            Date: 05/01/2020
+
+            File Name: ad_Index.html
+        -->
+        <meta charset="UTF-8"/>
+        <meta name="Keywords" content="Windows, Linux, Security, Forensics" />
+        <meta name="bg" content="width=device-width, initial-scale=1">
+        <title>Project: Admin_Tools</title>
+        <!--M1LO8 Demonstrate the use of external style sheets (HTML, note the external style sheet must exist and contain CSS)-->
+        <!--Identifies the use of a stylesheet-->
+        <link rel="ad_styles.css" href="stylesheet" />
+        <style>
+
+            h1 {
+                        border: 5px double blue;
+                        }
+            
+                        * {
+                        box-sizing: border-box;
+                        }
+            
+                        .column {
+                        float: left;
+                        width: 20%;
+                        padding: 50px;
+                        }
+            
+                    /* Clearfix (clear floats) */
+                        .row::after {
+                        content: "";
+                        clear: both;
+                        display: table;
+                        }
+            
+                    body, html {
+                      height: 100%;
+                      margin: 0;
+                    }
+                    /* The image used */
+                    .bg {
+                       background-image: url("bg_networking.jpeg");
+            
+                    /* Full height */
+                        height: 75%; 
+            
+                    /* Center and scale the image nicely */
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                    }
+                    
+                    img {
+                        display: block;
+                        margin-left: auto;
+                        margin-right: auto;
+                    }
+                        
+                    html {
+                        background-color:black;
+                    }
+            
+                    h1 {color: rgba(255, 0, 0, 0.616); font-size:32px;}
+                    h1 {text-align: center;}
+                        
+            
+                    p {
+                      color: red;
+                      font-family: courier;
+                      font-size: 150%;
+                      text-align: center;
+                      display: block;
+                    }
+                </style>
+    </head>
+    <body>
+
+        <div class="bg"></div>
+
+        <header>
+    
+            <h1>Admin_Tools: Networking Page</h1>
+
+            <img src="networking.jpeg" alt="Project: Admin_Tools" style="width:550px;height:300px;"/>
+        
+            <h1 id="top" >Welcome to the Networking Section of Admin_Tools:</h1>
+
+        </header> 
+        <!--M1LO7 Demonstrate the use of ordered lists (HTML)--> 
+        <nav>  
+            <ol>
+                <li><a href="ad_index.html">home</a></li>
+                <li><a href="ad_Windows.html">Windows</a></li>
+                <li><a href="ad_Linux.html">Linux</a></li>
+                <li><a href="ad_Security.html">Security</a></li>
+                <li><a href="ad_forensics.html">Forensics</a></li>
+                <li><a href="ad_about.html">About</a></li>
+            </ol>
+         </nav>
+    <article>
+
+         <section>
+
+        <p>THE NETWORKING PAGE IS STILL UNDER COMSTRUCTION</p>
+        
+    
+
+        <section> <p>This is where I will put links to software, Documentation, How to's...</p></section>
+        
+    </article>
+
+    <section>
+
+        <h1>My Google Drive: Windows</h1>
+
+        <p>The following link will take you to the google drive folder that I have setup for this site</p>
+
+        <p><a href="https://drive.google.com/drive/u/1/folders/1441rZblXIpceiVLl9GNNorp2F0WRphHy">Networking Folder Downloads </a></p>
+
+    </section>
+
+    <a href="#top">Go to top</a>
+
+    <div class="footer">
+        <p>Ronald J Pitts - Web Dev1 - Sean Pettersen</p>
+    </div>
+       
+    
+    </body>
+</html>
