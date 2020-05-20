@@ -19,17 +19,7 @@
     url(DobkinPlain.ttf) format('ttf');
     }
 
-    h1 {color: red; font-size:32px;}
-    h1 {text-align: center;}
-        
-
-    p {
-      color: red;
-      font-family: courier;
-      font-size: 150%;
-      text-align: center;
-      display: block;
-    }
+    
 
 
 
