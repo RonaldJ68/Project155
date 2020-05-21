@@ -32,6 +32,15 @@ url(DobkinPlain.ttf) format('ttf');
 
 */
 
+body {
+  margin-top: 5px;
+  margin-right: 10px;
+  margin-bottom: 15px;
+  margin-left: 20px;
+  }
+
+
+
 h1 {
   border: 5px double 
   }
