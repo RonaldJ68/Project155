@@ -18,78 +18,73 @@
         <!--M1LO8 Demonstrate the use of external style sheets (HTML, note the external style sheet must exist and contain CSS)-->
         <!--Identifies the use of a stylesheet-->
         <link rel="ad_styles.css" href="stylesheet" />
-        <style>
+        .nav {
+            background-color: green; 
+            list-style-type: none;
+            text-align: center;
+            margin: 60px;
+            padding: 0;
+        }
 
-            .nav {
-              background-color: yellow; 
-              list-style-type: none;
-              text-align: center;
-              margin: 0;
-              padding: 0;
-            }
+        .nav li {
+            display: inline-block;
+            font-size: 40px;
+            padding: 20px;
+        }
+
+
+        
+        img {float:left}
+           
+        h1 {
+            border: 5px double blue;
             
-            .nav li {
-              display: inline-block;
-              font-size: 20px;
-              padding: 20px;
-            }
+        }
+
+        
+
+
+        body,html {
+            height: 100%;
+            margin: 60px;
             
-                    h1 {
-                        border: 5px double green;
-                        }
+        }
+        /* The image used */
+        .bg {
+           background-image: url("ad_logo.jpeg");
+
+        /* Full height */
+            height: 50%; 
+
+        /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        
             
-                        * {
-                        box-sizing: border-box;
-                        }
+        html {
+            background-color:black;
+        }
+
+        h1 {
+            border: 5px double blue;
+        }
+
+        h1 {color: orangered; font-size:30px;}
+        h1 {text-align: center;}
             
-                    .column {
-                        float: left;
-                        width: 20%;
-                        padding: 50px;
-                    }
-            
-                    /* Clearfix (clear floats) */
-                    .row::after {
-                        content: "";
-                        clear: both;
-                        display: table;
-                        }
-            
-                    body, html {
-                      height: 100%;
-                      margin: 50px;
-                    }
-            
-                
-            
-                    
-            
-                    /* The image used */
-                    
-                    img {
-                        display: block;
-                        margin-left: auto;
-                        margin-right: auto;
-                    }
-                        
-                    html {
-                        background-color:black;
-                    }
-            
-                    
-            
-                    h1 {color: orange; font-size:32px;}
-                    h1 {text-align: center;}
-                        
-            
-                    p {
-                      color: powderblue;
-                      font-family: courier;
-                      font-size: 150%;
-                      text-align: center;
-                      display: block;
-                    }
-                </style>
+
+        p {
+          color: rgb(0, 195, 255);
+          font-family: courier;
+          font-size: 150%;
+          text-align: center;
+          display: block;
+        }
+
+        </style>
     </head>
     <body>
 
