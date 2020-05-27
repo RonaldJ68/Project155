@@ -32,6 +32,26 @@ url(DobkinPlain.ttf) format('ttf');
 
 */
 
+/* unvisited link */
+a:link {
+  color: #FFFFFF;
+  }
+  
+  /* visited link */
+  a:visited {
+  color: #FFFFFF;
+  }
+  
+  /* mouse over link */
+  a:hover {
+  color: #43c6de;
+  }
+  
+  /* selected link */
+  a:active {
+  color: #43c6de;
+  }
+
 h1 {
   border: 5px double 
   }
