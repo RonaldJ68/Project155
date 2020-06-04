@@ -1,0 +1,158 @@
+@charset "utf-8";
+
+
+
+@font-face {
+font-family: Champagne;
+src: url(cac_champagne.woff) format('woff'),
+url(cac_champagne.ttf) format('ttf');
+}
+
+@font-face {
+font-family: Grunge;
+src: url(1942.woff) format('woff'),
+url(1942.ttf) format('ttf');
+}
+ 
+@font-face {
+font-family: Dobkin;
+src: url(DobkinPlain.woff) format('woff'),
+url(DobkinPlain.ttf) format('ttf');
+}
+ 
+/*   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 2
+   Review Assignment
+   
+   TSS Typographic Style Sheet
+   Author: Ronald Pitts
+   Date: 05/02/2020  
+   
+   Filename: ad_styles.css
+
+*/
+
+/* unvisited link */
+a:link {
+  color: #FFFFFF;
+  }
+  
+  /* visited link */
+  a:visited {
+  color: #FFFFFF;
+  }
+  
+  /* mouse over link */
+  a:hover {
+  color: #43c6de;
+  }
+  
+  /* selected link */
+  a:active {
+  color: #43c6de;
+  }
+
+h1 {
+  border: 5px double 
+  }
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+/* The image used */
+.bg {
+  background-image: url("ad_logo.jpeg");
+
+/* Full height */
+  height: 100%; 
+
+/* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}       
+
+
+/* Main Structural Styles */
+html{
+  background-color:black;
+  }
+
+  h1{color: red; font-size:28px;}
+  h1 {text-align: center;}
+  
+
+  p{
+      color: red;
+      font-family: courier;
+      font-size: 160%;
+      text-align: center;
+      display: block;
+  }
+   
+html{
+ background-color:blue;
+ }
+
+body{
+ background-color: black;
+ font-family: 'Palatino Linotype', Palatino, serif;
+ }
+   
+header{
+ background-color:black;
+ }
+   
+p{
+  margin: 20px;
+  padding: 10px 30px 30px 30px;
+ }
+
+
+/* Heading Styles */
+h1{color: red; font-size:16px;}
+
+
+/* Blockquote Styles */
+
+
+
+
+/* Navigation Styles */	
+
+
+p{
+margin: 10px;
+padding: 10px 30px 30px 30px;
+}
+
+body {
+text-align: center;
+font-size: 1.1em;
+}
+
+ /* Horizontal Navigation List Styles */
+
+
+
+
+/* Section Styles */
+html
+{background-color: blue;
+}
+
+nav > ol > li{
+
+  font-size: 1.3rem;
+
+  font-weight: bold;
+
+  font-family: impact;
+
+}
+nav a{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
