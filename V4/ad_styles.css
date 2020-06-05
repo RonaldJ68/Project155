@@ -133,15 +133,13 @@ text-align: center;
 font-size: 1.1em;
 }
 
- /* Horizontal Navigation List Styles */
-
-
-
-
 /* Section Styles */
+
 html
 {background-color: blue;
 }
+
+/* Horizontal Navigation List Styles */
 
 nav > ol > li{
 
