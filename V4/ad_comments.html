@@ -158,6 +158,24 @@
         what tools have worked for you as a Administrator. So, please leave your information in the boxes below. Leave the link to the tool you have
          used and I will add it to the site for others who may visit here, and try for themselves.</p>
 
+         <h1>The input form attribute</h1>
+
+         <p>The form attribute specifies the form an input element belongs to.</p>
+         
+         <form action="/action_page.php" id="form1">
+           <label for="fname">First name:</label>
+           <input type="text" id="fname" name="fname"><br><br>
+           <input type="submit" value="Submit">
+         </form>
+         
+         <p>The "Last name" field below is outside the form element, but still part of the form.</p>
+         
+         <label for="lname">Last name:</label>
+         <input type="text" id="lname" name="lname" form="form1">
+         
+
+
+
     <fieldset id="ComInfo">
         <legend>Commentor Information</legend>
 
@@ -177,7 +195,7 @@
         <input name="Comment" id="Comment" type="text" />
     
         <input type="submit" value="Submit">
-        
+
     </fieldset> 
 
     
