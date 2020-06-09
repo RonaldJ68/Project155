@@ -100,8 +100,40 @@ p {
 }
 
 table, th, td {
-  border: 2px solid black;
-}
+          border: 2px solid black;
+        }
+
+        input[type=text], select {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid gray;
+            border-radius: 4px;
+            box-sizing: border-box;
+            }
+
+            input[type=submit] {
+            width: 100%;
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            }
+
+            input[type=submit]:hover {
+            background-color: #45a049;
+            }
+
+            div {
+            border-radius: 5px;
+            background-color: #f2f2f202;
+            padding: 20px;
+            }
+
 
 
         </style>
@@ -229,6 +261,42 @@ table, th, td {
                 an <strong>"FTP"</strong>strong> for the site eventually so that, <strong>"EVERYONE"</strong> who visits will have access to the tools we administrators use on a daily basis.</p>
 
             <p><a href="https://drive.google.com/drive/u/1/folders/1N4LBZ2BtBowVUimj0GVb6KDssCPGJgpY">Linux Folder Downloads</a></p>
+
+        </section>
+
+        <section>
+
+            <h1>Share Your Windows Tool Here:</h1>
+
+            <div>
+               <form action="/">
+                 <label for="fname">First Name</label>
+                 <input type="text" id="fname" name="firstname" placeholder="Your name..">
+             
+                 <label for="lname">Last Name</label>
+                 <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+   
+                 <label for="Email">E-Mail</label>
+                 <input type="text" id="Email" name="Email" placeholder="Your E-Mail Address.">
+   
+                 <label for="Jtitle">Job Tittle</label>
+                 <input type="text" id="Jtitle" name="Jtitle" placeholder="Your Job Title..">
+             
+                 <label for="country">Country</label>
+                 <select id="country" name="country">
+                   <option value="USA">United States</option>
+                   <option value="canada">Canada</option>
+                   <option value="australia">Australia</option>
+   
+                 <label for="Cname">Comments</label>
+                 <input type="text" id="Cname" name="Cname" placeholder="Your Favorite Tools Link.">
+                 </select>
+               
+                <form method="post" action="mailto:RonaldPitts@student.olympic.edu" >
+                    <input type="submit" value="SUBMIT" /> 
+                </form>
+               </form>
+             </div>
 
         </section>
 
