@@ -38,68 +38,69 @@
             padding: 20px;
         }       
 
-h1 {
-    border: 5px double black;
-    padding: 20px;
+    h1 {
+        border: 5px double black;
+        padding: 20px;
+        }
+
+        * {
+        box-sizing: border-box;
+        }
+
+    .column {
+        float: left;
+        width: 20%;
+        padding: 50px;
+        }
+
+    /* Clearfix (clear floats) */
+    .row::after {
+        content: "";
+        clear: both;
+        display: table;
+        }
+
+    body, html {
+        height: 100%;
+        margin: 60px;
+    }
+    /* The image used */
+    .bg {
+        background-image: url("ad_logo.jpeg");
+
+    /* Full height */
+        height: 30%; 
+
+    /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
-    * {
-    box-sizing: border-box;
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+        
+    html {
+        background-color:whitesmoke;
     }
 
-.column {
-    float: left;
-    width: 20%;
-    padding: 50px;
-    }
+    h1 {color:black; font-size:32px;}
+    h1 {text-align: center;}
+        
 
-/* Clearfix (clear floats) */
- .row::after {
-    content: "";
-    clear: both;
-    display: table;
-    }
-
-body, html {
-    height: 100%;
-    margin: 60px;
-}
-/* The image used */
-.bg {
-    background-image: url("ad_logo.jpeg");
-
-/* Full height */
-    height: 30%; 
-
-/* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-img {
+    p {
+    color: black;
+    font-family: courier;
+    font-size: 150%;
+    text-align: center;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-    
-html {
-    background-color:whitesmoke;
-}
+    }
 
-h1 {color:black; font-size:32px;}
-h1 {text-align: center;}
-    
-
-p {
-  color: black;
-  font-family: courier;
-  font-size: 150%;
-  text-align: center;
-  display: block;
-}
-
-table, th, td {
+/*interduction of the table*/
+    table, th, td {
           border: 2px solid black;
         }
 
@@ -292,8 +293,8 @@ table, th, td {
                  <input type="text" id="Cname" name="Cname" placeholder="Your Favorite Tools Link.">
                  </select>
                
-                <form method="post" action="mailto:RonaldPitts@student.olympic.edu" >
-                    <input type="submit" value="SUBMIT" /> 
+                 <form action="mailto:RonaldPitts@student.olypmic.edu" method="post" enctype="text/plain">
+                    <input type="submit" value="SUBMIT YOUR LINK" /> 
                 </form>
                </form>
              </div>
