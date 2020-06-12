@@ -143,4 +143,43 @@ tr:nth-child(even) {
   background-color: #dddddd;
 }
 
+table, th, td {
+  border: 2px solid black;
+}
 
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid gray;
+    border-radius: 4px;
+    box-sizing: border-box;
+    }
+
+    input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    }
+
+    input[type=submit]:hover {
+    background-color: #45a049;
+    }
+
+    div {
+    border-radius: 5px;
+    background-color: #f2f2f202;
+    padding: 20px;
+    }
+
+    div {
+    column-count: 2;
+    font-size: 30px;
+    margin: 40px;
+    }
