@@ -275,33 +275,35 @@
             <h1>--- Share Your <i>"Windows Tool"</i> Here: ---</h1>
 
             
-            <div>
-                <form action="/action_page.php">
-                  <label for="fname"><i>First Name</i></label>
-                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            <form action="">
+                <label for="fname"><i>First Name:</i></label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            
+                <label for="lname"><i>Last Name:</i></label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+  
+                <label for="Email"><i>E-Mail:</i></label>
+                <input type="text" id="Email" name="Email" placeholder="Your E-Mail Address.">
+  
+                <label for="Jtitle"><i>Job Tittle:</i></label>
+                <input type="text" id="Jtitle" name="Jtitle" placeholder="Your Job Title..">
+            
+                <label for="country"><i>Country:</i></label>
+                <select id="country" name="country">
+                  <option value="USA">United States</option>
+                  <option value="canada">Canada</option>
+                  <option value="australia">Australia</option>
+  
+                <label for="Cname">Comments:</label>
+                <input type="text" id="Cname" name="Cname" placeholder="Your Tool Link.">
+                </select>
               
-                  <label for="lname"><i>Last Name</i></label>
-                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-    
-                  <label for="Email"><i>E-Mail</i></label>
-                  <input type="text" id="Email" name="Email" placeholder="Your E-Mail Address.">
-    
-                  <label for="Jtitle"><i>Job Tittle</i></label>
-                  <input type="text" id="Jtitle" name="Jtitle" placeholder="Your Job Title..">
-              
-                  <label for="country"><i>Country</i></label>
-                  <select id="country" name="country">
-                    <option value="australia">Australia</option>
-                    <option value="canada">Canada</option>
-                    <option value="usa">USA</option>
-    
-                  <label for="Cname">Comments</label>
-                  <input type="text" id="Cname" name="Cname" placeholder="Your Comments..">
-                  </select>
-                
-                  <input type="submit" value="Submit">
-                </form>
-              </div>
+                <form action="mailto:RonaldPitts@student.olypmic.edu" method="post" enctype="text/plain">
+                   <input type="submit" value="SUBMIT YOUR LINK HERE" />
+                   <input type="reset" value="Reset"> 
+               </form>
+
+           </form>
              
 
         </section>
