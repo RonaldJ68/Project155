@@ -26,7 +26,7 @@ video {
 
 @media only screen and (min-width: 521px) {
    video {
-       width: 800px;
+       width: 360px;
        float: center;
        margin: 20px;
    }
