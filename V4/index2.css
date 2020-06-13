@@ -63,7 +63,7 @@ Body {
     }
 
         h1 {
-        border: 5px double black;
+        border: 10px double black;
         text-align: center;
         font-size:32px;
         margin:70px;
