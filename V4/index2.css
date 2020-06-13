@@ -46,7 +46,7 @@ Body {
 
 
     
-    }
+
 
     .nav {
         background-color: lightgray; 
@@ -118,7 +118,25 @@ Body {
         border: 2px solid black;
         background-color: lightgray;
         padding: 10px;
-    }
+        }
+
+        table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 1px;
+        
+        }
+      
+      
+      
+      td, th {
+        border: 2px solid #dddddd;
+        text-align: left;
+        padding: 100%;
+      }
+      
+      tr:nth-child(even) {
+        background-color: #dddddd;
 
 
         input[type=text], select {
