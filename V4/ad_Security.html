@@ -13,43 +13,118 @@
         <meta name="bg" content="width=device-width, initial-scale=1">
         <title>Project: Admin_Tools</title>
         <link rel="ad_styles.css" href="stylesheet" />
-        <section>
-    
-            <h1>--- Share Your <i>"LINUX"<i> Tool Here: ---</h1>
-
-           
-            <form action="">
-                 <label for="fname"><i>First Name:</i></label>
-                 <input type="text" id="fname" name="firstname" placeholder="Your name..">
-             
-                 <label for="lname"><i>Last Name:</i></label>
-                 <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-   
-                 <label for="Email"><i>E-Mail:</i></label>
-                 <input type="text" id="Email" name="Email" placeholder="Your E-Mail Address.">
-   
-                 <label for="Jtitle"><i>Job Tittle:</i></label>
-                 <input type="text" id="Jtitle" name="Jtitle" placeholder="Your Job Title..">
-             
-                 <label for="country"><i>Country:</i></label>
-                 <select id="country" name="country">
-                   <option value="USA">United States</option>
-                   <option value="canada">Canada</option>
-                   <option value="australia">Australia</option>
-   
-                 <label for="Cname">Comments:</label>
-                 <input type="text" id="Cname" name="Cname" placeholder="Your Tool Link.">
-                 </select>
-               
-                 <form action="mailto:RonaldPitts@student.olypmic.edu" method="post" enctype="text/plain">
-                    <input type="submit" value="SUBMIT YOUR LINK HERE" />
-                    <input type="reset" value="Reset"> 
-                </form>
-
-            </form>
+        <style>
             
-        </section>
-        
+            .nav {
+            background-color: lightgray; 
+            list-style-type: none;
+            text-align: center;
+            margin: 60px;
+            padding: 0;
+        }
+
+        .nav li {
+            display: inline-block;
+            font-size: 40px;
+            padding: 20px;
+        }
+
+            h1 {
+            border: 5px double black;
+            padding: 10px;
+            } 
+
+            
+
+            * {
+            box-sizing: border-box;
+            
+            }
+
+            .column {
+            float: left;
+            width: 20%;
+            padding: 50px;
+            }
+
+        /* Clearfix (clear floats) */
+            .row::after {
+            content: "";
+            clear: both;
+            display: table;
+            }
+
+            body, html {
+            height: 100%;
+            margin: 60px;
+        }
+
+            img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            }
+            
+            html{
+            background-color:whitesmoke;
+            }
+
+            h1 {color: black; font-size:32px;}
+            h1 {text-align: center;}
+            
+
+            p{
+            color: black;
+            font-family: courier;
+            font-size: 150%;
+            text-align: center;
+            display: block;
+            }
+
+            table, th, td {
+            border: 2px solid black;
+            background-color: lightgray;
+            padding: 10px;
+        }
+
+
+            input[type=text], select {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid gray;
+            border-radius: 4px;
+            box-sizing: border-box;
+            }
+
+            input[type=submit] {
+            width: 100%;
+            background-color: #4CAF50;
+            color: whitesmoke;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            }
+
+            input[type=submit]:hover {
+            background-color: #45a049;
+            }
+
+            div {
+            border-radius: 5px;
+            background-color: #f2f2f202;
+            padding: 30px;
+            }
+
+            div {
+            column-count: 3;
+            font-size: 30px;
+            }
+
+            </style>     
     </head>
     
     <body>
