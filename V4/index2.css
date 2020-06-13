@@ -29,3 +29,17 @@ Body {
     background-color: whitesmoke;
     Margin: 10%;
 }
+
+.nav {
+    background-color: lightgray; 
+    list-style-type: none;
+    text-align: center;
+    margin: 60px;
+    padding: 0;
+}
+
+.nav li {
+    display: inline-block;
+    font-size: 40px;
+    padding: 20px;
+}
