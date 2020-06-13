@@ -71,6 +71,7 @@ h1 {
 
             h1 {
             border: 5px double black;
+            text-align: center;
             margin: 10px;
             padding: 10px;
             } 
