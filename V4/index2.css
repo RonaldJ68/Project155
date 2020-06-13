@@ -47,4 +47,10 @@ Body {
 h1 {
     border: 5px double black;
     padding: 10px;
-    } 
+    }
+    
+
+    * {
+        box-sizing: border-box;
+        
+        }
