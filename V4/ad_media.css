@@ -17,7 +17,7 @@
 
 video {
    display:block;
-   width: 100%;
+   width: 90%;
    margin-bottom: 5px;
    margin-top: 5px;
    margin-left: auto;
@@ -33,14 +33,5 @@ video {
 }  
   
 /* Track Styles */
-::cue {
-   font-size: 1.3em;
-   font-family: sans-serif;
-   color: rgb(221, 128, 160);
-   background-color: rgba(255, 255, 255, 0.8);
-}
 
-caption {
-font: 1.3em sans-serif rgb(221,128,160);
-background-color: rgba(255,255,255,0.8);
-}
+
