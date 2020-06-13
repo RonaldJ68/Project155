@@ -22,7 +22,7 @@ url(DobkinPlain.ttf) format('ttf');
 
 html {
     background-color: black;
-    Margin: 0;
+    Margin: 10px;
 }
 
 Body {
