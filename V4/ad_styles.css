@@ -41,19 +41,8 @@ nav ol li {
 }
 
 
-.nav {
-  background-color: lightgray; 
-  list-style-type: none;font-size: 0%;
-  text-align: center;
-  margin: 60px;
-  padding: 0;
-}
 
-.nav li {
-  display: inline-block;
-  font-size: 40px;
-  padding: 20px;
-}
+
 
 
 
