@@ -25,10 +25,10 @@ video {
 }
 
 @media only screen and (min-width: 521px) {
-   video {
-       width: 360px;
-       float: center;
-       margin: 20px;
+video {
+   width: 360px;
+   float: center;
+   margin: 20px;
    }
 }  
   

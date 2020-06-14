@@ -183,5 +183,8 @@ input[type=text], select {
     font-size: 30px;
     margin: 40px;
     }
-
+    
+    h1 {
+      text-shadow: 2px 2px;
+    }
     
