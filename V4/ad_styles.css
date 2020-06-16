@@ -84,9 +84,10 @@ margin:60px;
 
 
 /* Full height */
-  height: 30%; 
+  
 
 /* Center and scale the image nicely */
+img{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
