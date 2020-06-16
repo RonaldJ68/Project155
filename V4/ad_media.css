@@ -14,7 +14,8 @@
 */
 
 /* Video Player Styles */
-
+/*M8LO12 Demonstrate how to format media with CSS (CSS, group your media styles together and describe their overall impact on the media feature of your page)*/
+/* This is where the .css goes when implementing the player.*/
 video {
    display:block;
    width: 90%;

@@ -138,6 +138,8 @@ table, th, td {
 }
 
 /*Introduction of the Form*/
+/*M7LO11 Demonstrate how to format a form with CSS (group your form styles together in your CSS file, and document their overall impact on the form)*/
+/*This is the selecting of the location visitors ae from*/
 input[type=text], select {
     width: 100%;
     padding: 12px 20px;
@@ -147,8 +149,8 @@ input[type=text], select {
     border-radius: 4px;
     box-sizing: border-box;
     }
-
-    input[type=submit] {
+/* this Submits the form to my Email Box*/
+   input[type=submit] {
     width: 100%;
     background-color: #4CAF50;
     color: white;
