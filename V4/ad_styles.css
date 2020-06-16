@@ -123,8 +123,6 @@ table {
   
 }
 
-
-
 td, th {
   border: 2px solid #dddddd;
   text-align: left;
@@ -139,6 +137,7 @@ table, th, td {
   border: 2px solid black;
 }
 
+/*Introduction of the Form*/
 input[type=text], select {
     width: 100%;
     padding: 12px 20px;
